@@ -1,0 +1,47 @@
+.center {
+    text-align: center;
+    border: 3px solid green;
+}
+.center {
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEmdv4usLs5ZcBw5RyHLAGDS_ylwYxYAvij8wpZqyG6XOXkkQm");
+}
+h1,p,h2{
+    color:blue;
+}
+.blue{
+text-align:center;
+border:3px solid blue;
+}
+.blue{
+background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSxBB8xUT2u2b2T2hqW4FLPxyMM9uXuT28Te2oRW_KxdNpgFHjsw);    
+}
+
+#pics img{
+    width: 30%;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+#pics {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0;
+}
+
+#pics img:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+#Eyebrow h2 {color:blue;}
+p {
+    font-size: 20px;
+    color:orange;
+}
+#Eyebrow {
+display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-image:url(https://previews.123rf.com/images/nasaimages/nasaimages1701/nasaimages170100012/70203775-nebula-and-galaxies-in-space-elements-of-this-image-furnished-by-nasa-.jpg);
+}
